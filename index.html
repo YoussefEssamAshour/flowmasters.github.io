@@ -8,14 +8,15 @@
     <style>
         body {
             margin-top: 40px;
-            background: #eee;
+            background: #000;
             font-family:sans-serif;
             font-size:16px;
             font-weight:bold;
+			color: white;
         }
 
         .page-todo .tasks {
-            background: #fff;
+            background: #000;
             padding: 0;
             border-right: 1px solid #d1d4d7;
             margin: -30px 15px -30px -15px
@@ -31,7 +32,7 @@
         }
 
         .page-todo .priority.high {
-            background: #fffdfd;
+            background: black;
             margin-bottom: 1px
         }
 
@@ -44,7 +45,7 @@
         }
 
         .page-todo .priority.medium {
-            background: #fff0ab;
+            background: black;
             margin-bottom: 1px
         }
 
@@ -57,9 +58,10 @@
         }
 
         .page-todo .priority.low {
-            background: #cfedda;
+            background: black;
             margin-bottom: 1px
         }
+		
 
         .page-todo .priority.low span {
             background: #4dbd74;
@@ -70,7 +72,7 @@
         }
 
         .page-todo .task {
-            border-bottom: 1px solid #e4e5e6;
+            border-bottom: 1px solid #e4e5e6:
             margin-bottom: 1px;
             position: relative
         }
@@ -423,6 +425,15 @@
             width: 20px; 
             height: 20px;
         }
+
+		//footer style //
+		footer {
+			width :	100%;
+		}
+		.foot-element {
+			text-align:center
+		}
+		
     </style>
     <body>
         <div class="container page-todo bootstrap snippets bootdeys">
@@ -433,8 +444,7 @@
                     <div class="task high">
                         <div class="desc">
                             <div class="title">Greeting</div>
-                            <div>Thank you for choosing OPTIMUM this is 'NAME' How May I help you today?</div>
-                        </div>
+                           </div>
                         <div class="time">
                             <input type="checkbox" class="done" name="vehicle1" value="Bike">
                         </div>
@@ -442,8 +452,7 @@
                     <div class="task high">
                         <div class="desc">
                             <div class="title">Empathy</div>
-                            <div>Happy for you - great (good news) - I can feel your frustration. (bad news)</div>
-                        </div>
+                            </div>
                         <div class="time">
                             <input type="checkbox" class="done" name="vehicle1" value="Bike">
                         </div>
@@ -451,8 +460,7 @@
                     <div class="task high">
                         <div class="desc">
                             <div class="title">Assurance</div>
-                            <div>I definitely will be able to help you - I assure you Iam going to be able to help</div>
-                        </div>
+                            </div>
                         <div class="time">
                             <input type="checkbox" class="done" name="vehicle1" value="Bike">
                         </div>
@@ -460,9 +468,7 @@
                     <div class="task high">
                         <div class="desc">
                             <div class="title">asking for alt. No. AND CPC</div>
-                            <div>but just in case if the call dropped for any kind of reason can I have any kind of alternative phone number
-                           <hr> (only if IDA prompted) Would you like me to update anything in your contact preferences like phone number or email or cell phone to receive important text ? you know that will keep you updated with any kind of new optimum updates or even outages in your area.</div>
-                        </div>
+                            <div></div>
                         <div class="time">
                             <input type="checkbox" class="done" name="vehicle1" value="Bike">
                         </div>
@@ -470,8 +476,7 @@
                     <div class="task high">
                         <div class="desc">
                             <div class="title">Rephrase</div>
-                            <div>Just to make sure we are in the same page let me confirm that you (wanted to check bill - said have no internet)</div>
-                        </div>
+                            </div>
                         <div class="time">
                             <input type="checkbox" class="done" name="vehicle1" value="Bike">
                         </div>
@@ -479,7 +484,7 @@
                     <div class="task high">
                         <div class="desc">
                             <div class="title">Verification + CPNI</div>
-                            <div></div>
+                            </div>
                         </div>
                         <div class="time">
                             <input type="checkbox" class="done" name="vehicle1" value="Bike">
@@ -489,8 +494,7 @@
                     <div class="task medium">
                         <div class="desc">
                             <div class="title">selfhelp   </div>
-                            <div>While Iam opening up your account let me tell you that your online account on  (optimum.net) as well (my optimum app) on your mobile will be at your service any time like viewing bills, Pay your bills & managing your account. + and you can Watch tutorials of how to activate and troubleshoot equipment yourself on our optimum YouTube channel. + you can watch your favorite movies and shows by downloading our (OPT TV APP)</div>
-                        </div>
+                            </div>
                         <div class="time">
                             <input type="checkbox" class="done" name="vehicle1" value="Bike">
                         </div>
@@ -504,26 +508,7 @@
                             <input type="checkbox" class="done" name="vehicle1" value="Bike">
                         </div>
                     </div>
-                    <div class="priority low"><span>CLOSING</span></div>
-                    <div class="task low">
-                        <div class="desc">
-                            <div class="title">Extra assistance</div>
-                            <div>Is there any other query I can help you with?</div>
-                        </div>
-                        <div class="time">
-                            <input type="checkbox" class="done" name="vehicle1" value="Bike">
-                        </div>
-                    </div>
-                    <div class="task low">
-                        <div class="desc">
-                            <div class="title">Before we go i want to maek sure all your other services are working fine(don't ask if 'all services out')</div>
-                            <div></div>
-                        </div>
-                        <div class="time">
-                            <input type="checkbox" class="done" name="vehicle1" value="Bike">
-                        </div>
-                    </div>
-                    <div class="task low">
+					<div class="task medium">
                         <div class="desc">
                             <div class="title">Mobile </div>
                             <div>AS I can see you are not having a mobile account with us which guarantee you a discount up to 15$ on the home services account-would you like me to connect you with the mobile sales agent?</div>
@@ -532,10 +517,40 @@
                             <input type="checkbox" class="done" name="vehicle1" value="Bike">
                         </div>
                     </div>
+					
+                    <div class="priority low"><span>CLOSING</span></div>
+                    <div class="task low">
+                        <div class="desc">
+                            <div class="title">Extra assistance and previous check</div>
+                            <div></div>
+                        </div>
+                        <div class="time">
+                            <input type="checkbox" class="done" name="vehicle1" value="Bike">
+                        </div>
+                    </div>
+                    <div class="task low">
+                        <div class="desc">
+                            <div class="title">Other Services</div>
+                            <div></div>
+                        </div>
+                        <div class="time">
+                            <input type="checkbox" class="done" name="vehicle1" value="Bike">
+                        </div>
+                    </div>
+					<div class="task low">
+                        <div class="desc">
+                            <div class="title">Survay</div>
+                            <div></div>
+                        </div>
+                        <div class="time">
+                            <input type="checkbox" class="done" name="vehicle1" value="Bike">
+                        </div>
+                    </div>
+                    
                     <div class="task low">
                         <div class="desc">
                             <div class="title">Closure</div>
-                            <div>You were speaking to ( Name ), -It has been my pleasure to serve you today, you are really the best thing happened in my day, Thanks for choosing OPT and have a lovely day</div>
+                            <div></div>
                         </div>
                         <div class="time">
                             <input type="checkbox" class="done" name="vehicle1" value="Bike">
@@ -546,10 +561,49 @@
                 </div>
             </div>
         </div>
+		<section>
+			<h1>Coding/Remedy</h1>
+			<form>
+			<label>Caller name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<input type="text"></input>
+			</form>
+			</br>
+			<form>
+			<label>Account number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<input type="text"></input>
+			</form>
+			</br>
+			<form>
+			<label>Best CB:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<input type="text"></input>
+			</form>
+			</br>
+			<form>
+			<label>STAT:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+			</form>
+			</br>
+			<form>
+			<label>Issue:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<input type="text"></input>
+			</form>
+			</br>
+			<form>
+			<label>Resolution: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<input type="text"></input>
+			</form>
+			</br>
+			<form>
+			<label>Future Expectaions:</label>
+			<input type="text"></input>
+			</form>
+			</br>
+			<div></div>
+		</section>
     </body>
     <br>
-    <footer><div>&copy; Made by : YOUSSEF ESSAM ELDIN</div>
-    <hr>
-    <div>&copy; EMAIL : youssef.essameldinashourahmedmanso@alticeusa.com</div></footer>
+    <footer><div class="foot-element">&copy; Made by : YOUSSEF ESSAM ELDIN</div>
+    <br>
+    <div class="foot-element">&copy; EMAIL : youssef.essameldinashourahmedmanso@alticeusa.com</div></footer>
     
 </html>
